@@ -1,11 +1,13 @@
-import Contact from './components/Contact';
+import Contact from './Contact.js';
 
 const ContactList = ({list}) => {
 
     const contacts = list.map((contact, i) => <Contact key={i} {...contact}/>)
 
     return (
-        {contacts}
+        <ul>
+            {contacts}
+        </ul>
     )
 }
 

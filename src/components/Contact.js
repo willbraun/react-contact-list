@@ -1,10 +1,10 @@
 const Contact = ({firstName, lastName, address, phoneNumber}) => {
     return (
-        <div>
+        <li>
             <p>{firstName} {lastName}</p>
             <p><address>{address}</address></p>
             <p>{phoneNumber}</p>
-        </div>
+        </li>
     )
 }
 
