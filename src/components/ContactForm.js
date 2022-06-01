@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const InputForm = () => {
+const ContactForm = () => {
     // state of the form, UI state
     const [state, setState] = useState({
         firstName: '',
@@ -10,8 +10,8 @@ const InputForm = () => {
     });
 
     return (
-
+        <div>test</div>
     )
 }
 
-export default InputForm;
+export default ContactForm;

@@ -1,10 +1,12 @@
-// import { useState } from 'react';
+import Contact from './components/Contact';
 
-// const ContactList = () => {
+const ContactList = ({list}) => {
 
-//     return (
+    const contacts = list.map((contact, i) => <Contact key={i} {...contact}/>)
 
-//     )
-// }
+    return (
+        {contacts}
+    )
+}
 
-// export default ContactList;
+export default ContactList;

@@ -1,10 +1,9 @@
-const Contact = () => {
+const Contact = ({firstName, lastName, address, phoneNumber}) => {
     return (
         <div>
-            <p>firstName</p>
-            <p>lastName</p>
-            <p><address>address</address></p>
-            <p>phoneNumber</p>
+            <p>{firstName} {lastName}</p>
+            <p><address>{address}</address></p>
+            <p>{phoneNumber}</p>
         </div>
     )
 }

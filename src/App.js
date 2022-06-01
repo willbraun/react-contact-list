@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import InputForm from './components/InputForm';
+import ContactForm from './components/ContactForm';
 import ContactList from './components/ContactList';
 import './App.css';
 
@@ -17,7 +17,7 @@ function App() {
 
     return (
     <div className='project'>
-		<InputForm addToList={addToList} />
+		<ContactForm addToList={addToList} />
 		<ContactList list={list} />
 	</div>
     );
