@@ -1,7 +1,7 @@
 const Contact = ({firstName, lastName, address, phoneNumber}) => {
     return (
-        <li>
-            <p>{firstName} {lastName}</p>
+        <li className="contact">
+            <p>{firstName} {lastName} </p>
             <p><address>{address}</address></p>
             <p>{phoneNumber}</p>
         </li>
