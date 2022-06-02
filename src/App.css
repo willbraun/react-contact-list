@@ -50,6 +50,7 @@
   border-radius: 5px;
   width: 20%;
   min-width: fit-content;
+  height: fit-content;
   list-style-type: none;
   background-color: rgb(203, 242, 255);
 }

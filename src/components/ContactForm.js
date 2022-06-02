@@ -14,6 +14,7 @@ const ContactForm = ({addToList}) => {
         e.preventDefault();
         addToList(state)
         setState(blank);
+        e.target.reset();
     }
 
     return (
